@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanka Sanjay Sardar | Personal Portfolio</title>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header id="home">
+    <h1>My Portfolio</h1>
+    <p>Good Evening! I am <strong>Priyanka Sardar</strong>, a Computer Science Engineering student.</p>
+    <nav aria-label="Main Navigation">
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#education">Education</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+
+    <!-- Profile & Introduction Section -->
+    <section id="about" aria-labelledby="intro-heading">
+      <h2 id="intro-heading" hidden>About Me</h2>
+      <img src="profile.jpg" alt="Profile picture of Priyanka Sanjay Sardar" width="200">
+      <p>I am currently learning how technology can be used to solve real-world problems.</p>
+      <p>My current focus is <mark>Web Development and Programming</mark>.</p>
+      <hr>
+
+      <p>
+        I am a Computer Science Engineering student who enjoys learning new programming concepts.
+        I believe that every small project is an opportunity to learn something new.
+      </p>
+      <p>My favorite approach to learning is <strong>Learn &rarr; Practice &rarr; Make Mistakes &rarr; Improve.</strong></p>
+      <p><small>"The best way to learn programming is to keep building things."</small></p>
+      <p><small>One thing I always remember is <q>Practice makes progress.</q></small></p>
+      <hr>
+
+      <h3>Quick Facts About Me</h3>
+      <dl>
+        <dt><strong>Course:</strong> B.Tech in Computer Science Engineering</dt>
+        <dt><strong>Interest:</strong> Web Development and Programming</dt>
+        <dt><strong>Learning Style:</strong> Practical learning through projects</dt>
+      </dl>
+      <hr>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Things I Can Work With</h2>
+
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Java</li>
+      </ul>
+
+      <h3>Web Technologies</h3>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+      <hr>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading">My Education</h2>
+      <table border="1" cellpadding="6" cellspacing="0">
+        <caption><strong>Educational Background</strong></caption>
+        <thead>
+          <tr>
+            <th>Qualification</th>
+            <th>Field</th>
+            <th>Year</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Diploma</td>
+            <td>Computer Engineering</td>
+            <td>2025</td>
+            <td>Completed (76.23%)</td>
+          </tr>
+          <tr>
+            <td>B.Tech</td>
+            <td>Computer Science Engineering</td>
+            <td>2025 - Present</td>
+            <td>Studying</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4"><em>Always learning something new!</em></td>
+          </tr>
+        </tfoot>
+      </table>
+      <hr>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects I Have Worked On</h2>
+
+      <article>
+        <h3>Project 01 - College Timetable Generator</h3>
+        <p>A web-based project designed to help colleges create and manage timetables more easily.</p>
+        <details>
+          <summary>View Project Details</summary>
+          <p>
+            Automatically generates conflict-free class timetables based on faculty availability,
+            subject load, and time-slot constraints using core programming logic and data structures.
+          </p>
+        </details>
+      </article>
+
+      <article>
+        <h3>Project 02 - Student Portfolio</h3>
+        <p>A personal website created to display my education, skills, and projects.</p>
+      </article>
+
+      <article>
+        <h3>Project 03 - Weather &amp; Movie Application</h3>
+        <p>
+          A responsive web app built with HTML, CSS, JavaScript, and REST APIs.
+          Live Demo: <a href="https://weatherandmovieapp.netlify.app" target="_blank" rel="noopener noreferrer">weatherandmovieapp.netlify.app</a>
+        </p>
+      </article>
+      <hr>
+    </section>
+
+    <!-- Hobbies / Outside Coding Section -->
+    <section aria-labelledby="hobbies-heading">
+      <h2 id="hobbies-heading">Outside Coding</h2>
+      <p>When I am not studying, I enjoy:</p>
+      <ul>
+        <li>Listening to music</li>
+        <li>Learning new things</li>
+        <li>Exploring technology</li>
+        <li>Working on small projects</li>
+      </ul>
+      <hr>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Let's Connect</h2>
+      <p>Have a project idea or want to say hello? Send me a message.</p>
+
+      <form action="mailto:sardarpriyanka475@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+          <legend>Contact Form</legend>
+
+          <p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="Full Name" placeholder="Enter your name" required>
+          </p>
+
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+          </p>
+
+          <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="Date of Birth">
+          </p>
+
+          <p>
+            Preferred Contact:
+            <input type="radio" id="contact-email" name="Preferred Contact" value="Email">
+            <label for="contact-email">Email</label>
+            <input type="radio" id="contact-phone" name="Preferred Contact" value="Phone">
+            <label for="contact-phone">Phone</label>
+          </p>
+
+          <p>
+            Topics I Can Discuss:
+            <input type="checkbox" id="topic-html" name="Topics" value="HTML">
+            <label for="topic-html">HTML</label>
+            <input type="checkbox" id="topic-python" name="Topics" value="Python">
+            <label for="topic-python">Python</label>
+            <input type="checkbox" id="topic-projects" name="Topics" value="Projects">
+            <label for="topic-projects">Projects</label>
+          </p>
+
+          <p>
+            <label for="department">Select Department:</label>
+            <select id="department" name="Department">
+              <option value="">-- Select Department --</option>
+              <option value="CSE">Computer Science &amp; Engineering</option>
+              <option value="IT">Information Technology</option>
+              <option value="AI">Artificial Intelligence</option>
+              <option value="Other">Other</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="Message" rows="4" cols="35" placeholder="Write your message here..."></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Send Message</button>
+            <button type="reset">Clear</button>
+          </p>
+        </fieldset>
+      </form>
+      <hr>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <h3>Thank You For Visiting!</h3>
+    <p>My Portfolio &copy; 2026</p>
+    <p>
+      Email: <a href="mailto:sardarpriyanka475@gmail.com">sardarpriyanka475@gmail.com</a> |
+      Phone: <a href="tel:+918080135601">+91-8080135601</a>
+    </p>
+    <p>GitHub: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">My GitHub</a></p>
+    <p><small>This website was created as an HTML learning project.</small></p>
+  </footer>
+
+</body>
+</html>
